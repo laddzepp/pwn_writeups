@@ -13,3 +13,6 @@
 Если нет, то в эту: <br /> 
 ![image](https://github.com/user-attachments/assets/c4922860-b643-4264-8115-cc2220d33d85) 
 
+Для того, чтобы получить флаг необходимо пропатчить память и изменить строку с `dont_give_flag` на `I_WANT_THE_FLAG!`. Сделаем это в отладчике edb.
+![image](https://github.com/user-attachments/assets/093adf95-e9f5-4a60-a0f2-815fb17c7045)
+
