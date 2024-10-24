@@ -15,4 +15,8 @@
 
 Для того, чтобы получить флаг необходимо пропатчить память и изменить строку с `dont_give_flag` на `I_WANT_THE_FLAG!`. Сделаем это в отладчике edb.
 ![image](https://github.com/user-attachments/assets/093adf95-e9f5-4a60-a0f2-815fb17c7045)
+Выберем строку с `dont_give_flag` нажмем левую кнопку мыши и в меню выберем пункт `Follow constant in Dump`.
+![image](https://github.com/user-attachments/assets/71201306-8cb8-4522-9568-605de22ab9ce)
+![image](https://github.com/user-attachments/assets/de35049a-1c6c-4c28-8f0f-075f53b2edf5)
+
 
