@@ -1,5 +1,6 @@
 
 # Сайт: forkbomb 
+# Задание: String
 # Автор: mrvos (Vlad Roskov) 
 # Сложность: Easy
 
