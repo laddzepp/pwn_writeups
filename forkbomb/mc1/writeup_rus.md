@@ -1,6 +1,6 @@
 
 # Сайт: forkbomb.ru 
-# Автор: mvros (Влад Росков)
+# Автор: mrvos (Vlad Roskov)
 # Сложность: easy 
 
 
