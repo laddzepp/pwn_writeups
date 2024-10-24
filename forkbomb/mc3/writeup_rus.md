@@ -20,7 +20,7 @@
 ![image](https://github.com/user-attachments/assets/de35049a-1c6c-4c28-8f0f-075f53b2edf5)
 
 Нажимая сочетание клавиш `ctrl+e` пропатчим память. Должно получиться вот так: 
-![image](https://github.com/user-attachments/assets/de3a046b-df3f-429c-9eb6-cffc6fd9ffe2)
+![image](https://github.com/user-attachments/assets/de3a046b-df3f-429c-9eb6-cffc6fd9ffe2) <br />
 Отпустим программму нажав клавишу `F9` и получим флаг: 
 
 ![image](https://github.com/user-attachments/assets/bf3b6e71-187d-49d3-85d6-c23f3e9d58f3)
