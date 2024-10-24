@@ -17,3 +17,15 @@
 Как и ожидалось, IDA не смогла распознать содержимое
 ![image](https://github.com/user-attachments/assets/14680bc5-900c-4f97-99c9-d0e35c0d023b)
 
+Чтобы узнать желаемую строку необходимо вызвать функцию `obfuscated_prepare_memory` и в дампе памяти прыгнуть на адрес `0x61ebce`.
+Осуществим это с помощью отладчка `edb`. 
+
+Проходим функцию `obfuscated_prepare_memory` 
+![image](https://github.com/user-attachments/assets/ef6a27d9-e7cf-46b3-bb59-deccd60497dc)
+
+И в дампе памяти с помощью комбинации клавиш `ctrl+g` открываем меню `Go to Expression` и указываем в окне адрес `0x61ebce`. Получаем строку по данному адресу.
+
+![image](https://github.com/user-attachments/assets/2142fc38-d647-4d19-931e-739c227454a1)
+
+Ответ: westgate1697
+
