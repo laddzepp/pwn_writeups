@@ -16,5 +16,6 @@
 ![image](https://github.com/user-attachments/assets/f681879a-c794-4192-beeb-fc25da34f2f0)
 
 Ну и собственно сравнивается строка `giveflag` и `s2` с помощью функции `_strcmp` и прыгает в одну из двух веток: одна выводит "локальный флаг", а другая, что флаг нам не дадут.
+![image](https://github.com/user-attachments/assets/1803bb82-fdba-4db0-b016-92a71400d56a)
 ![image](https://github.com/user-attachments/assets/1477319a-d6b0-4d62-91e7-f1c27221065d)
 ![image](https://github.com/user-attachments/assets/2289ea6b-c081-42af-b2fb-97b714d7a4c9)
