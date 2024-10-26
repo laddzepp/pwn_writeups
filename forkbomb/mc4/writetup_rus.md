@@ -9,3 +9,12 @@
 
 #### Статический анализ.
 
+![image](https://github.com/user-attachments/assets/790fd5e8-767c-4a75-8aca-14f7551f1750)
+
+В первом блоке программы заносим адрес строки `dword_4006A4` в переменную `giveflag`. По данному адресу лежит строка `No.` о чем нам любезно подсказывает IDA.
+
+![image](https://github.com/user-attachments/assets/f681879a-c794-4192-beeb-fc25da34f2f0)
+
+Ну и собственно сравнивается строка `giveflag` и `s2` с помощью функции `_strcmp` и прыгает в одну из двух веток: одна выводит "локальный флаг", а другая, что флаг нам не дадут.
+![image](https://github.com/user-attachments/assets/1477319a-d6b0-4d62-91e7-f1c27221065d)
+![image](https://github.com/user-attachments/assets/2289ea6b-c081-42af-b2fb-97b714d7a4c9)
