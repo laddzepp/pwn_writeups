@@ -67,3 +67,5 @@ p.interactive()
 ![image](https://github.com/user-attachments/assets/a3bd7f15-37a7-457e-875a-42091c3f2a00)
 
 
+Ответ: `spbctf{babys_f1rst_0verfl0ww}`
+
