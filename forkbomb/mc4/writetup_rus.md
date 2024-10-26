@@ -32,3 +32,6 @@ from pwn import *
 
 p = ELF('./mc4_censored')
 ```
+
+![image](https://github.com/user-attachments/assets/dd5d7fc8-a415-49a0-9e67-29d2ab92ef75)
+
