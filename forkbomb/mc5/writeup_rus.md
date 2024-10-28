@@ -26,5 +26,13 @@ BufferOverflow.
 ввести 7 десятичных чисел, 6 из которых преставляют из себя `YEAH` в little endian и и последнее,
 седьмое, `EAH` также в little endian.
 
-`YEAH = 0x48454159 = 75781209`
-`EAH =  0x484541 = 4736321`
+`YEAH = 0x48454159 = 1497710937`
+`EAH =  0x484541 = 4735301`
+
+![image](https://github.com/user-attachments/assets/8251428d-5db3-468c-8727-e85527297a26)
+
+Локальный флаг получен, теперь обратимся к удаленной программе и получим настроящий флаг
+![image](https://github.com/user-attachments/assets/f477d42c-d4fb-4520-8861-b695f2a70bb0)
+
+Ответ: `spbctf{0mgy3s_that_s_t3h_r34l_1337spe4k}`
+
