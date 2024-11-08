@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/b948de79-f2e9-4e30-ad73-c2bc462c3278)# Сайт: forkbomb.ru 
+# Сайт: forkbomb.ru 
 # Автор: @korniltsev (Anatoly Korniltsev)
 # Название: sptr
 # Сложность: Easy
