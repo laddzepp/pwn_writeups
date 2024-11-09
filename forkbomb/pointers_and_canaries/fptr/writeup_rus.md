@@ -8,11 +8,11 @@
 ![image](https://github.com/user-attachments/assets/316ac8ee-6871-4119-baf2-3c6d5c22d2bf)
 
 Здесь все просто, считываем буфер, после того, как буфер считан, выполнится инструкция `call edx`, которая и вызовет функцию по указанному адресу: <br />
-![image](https://github.com/user-attachments/assets/b1b2b4bb-6fd4-430f-9172-894eaec4c161)
+![image](https://github.com/user-attachments/assets/b1b2b4bb-6fd4-430f-9172-894eaec4c161) <br />
 Введем 4 буквы `a` и посмотрим на состояние стека: <br />
-![image](https://github.com/user-attachments/assets/1667b659-cc59-4523-8f05-f55eef968786)
+![image](https://github.com/user-attachments/assets/1667b659-cc59-4523-8f05-f55eef968786) <br />
 При таком вводе, адрес не переписывается, поэтому переполним буфер и запишем новый адрес. Посмотрим как адрес у функции `win`: <br />
-![image](https://github.com/user-attachments/assets/76e938ff-5656-4813-8fbc-8ef5e46d9155)
+![image](https://github.com/user-attachments/assets/76e938ff-5656-4813-8fbc-8ef5e46d9155) <br />
 Адрес у данной функции `0x401172`. Напишем скрипт и посмотрим получится ли получить локальный флаг: <br />
 
 ```py
