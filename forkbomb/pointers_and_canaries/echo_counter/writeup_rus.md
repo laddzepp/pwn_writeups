@@ -9,7 +9,10 @@
 ![image](https://github.com/user-attachments/assets/a1ef1646-9467-414a-a290-74f7bf85a6ca)
 
 Итак, у нас имеется переменная `is_admin`, которую надо будет перезаписать. И функция `play`, куда мы передаем адрес переменной `echo_counter`. Если значение переменной `is_admin` ненулевое, тогда 
-мы выполняем `system("cat flag")`.
+мы выполняем `system("cat flag")`. Теперь проанализируем функцию `play()`. <br />
+
+![image](https://github.com/user-attachments/assets/ec40b787-1390-4259-854f-206b75ea4a6c)
+
 
 
 
