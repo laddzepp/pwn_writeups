@@ -18,4 +18,7 @@
 
 ![image](https://github.com/user-attachments/assets/28f12f02-9440-4fd3-a9c0-4b9e71e7e209)
 
+Сначала на стеке будет лежать аргумент `echo_counter`, а над ним будет размещаться массив `char buf[8]`. Значит, мы можем переполнить массив `char buf[8]` и перезаписать адрес `echo_counter` на адрес 
+переменной `is_admin`. <br />
+
 
