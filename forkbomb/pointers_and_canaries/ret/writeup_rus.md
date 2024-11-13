@@ -10,7 +10,7 @@
 
 В программе всего три функции: `main`, `win` и `play`:
 
-![image](https://github.com/user-attachments/assets/a2ffc56d-43ca-44c9-924e-a575b365b404) <br />
+![image](https://github.com/user-attachments/assets/06a7640b-0680-4d5d-beef-12b2132f2d02) <br />
 
 
 `play` вызывается внутри функции `main`. Посмотрим на содержимое этой функции: <br />
