@@ -12,7 +12,7 @@ while True:
     str = p.recvline().decode("utf-8")
 
 
-    if (str == "|_| |_| \\___|/_/\\_\\\r\n"):  
+    if str == "|_| |_| \\___|/_/\\_\\\r\n":  
         res = str_with_number.decode("utf-8").split(" ")
         hex_str = hex(int(res[1]))[2:]
         payload = bytes(hex_str , 'utf-8')
