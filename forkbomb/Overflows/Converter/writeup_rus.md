@@ -34,7 +34,7 @@ from pwn import *
 
 p = remote('109.233.56.90', 11573)
 str_with_num = p.recvline().decode('utf-8').split(" ")
-print(p.recvline())
+print(str_with_num[1])
 ```
 ![image](https://github.com/user-attachments/assets/15036042-26ff-4f69-b205-35532994ad3b)
 
