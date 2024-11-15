@@ -122,10 +122,12 @@ while True:
         p.sendline(p64(num))
         print(p.recvline())
         print(p.recvline())
-
 ```
+Здесь я организовал цикл, для того,чтобы мы могли считать весь stdout, который нам присылает программа. В результате, мы получаем флаг: 
+![image](https://github.com/user-attachments/assets/04ef5448-de1c-464a-a10c-ae5c7c283808)
 
 
+Ответ: `spbctf{You_ARE_CONveRTEr_MSW600}`
 
 
 
