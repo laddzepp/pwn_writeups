@@ -44,5 +44,41 @@ print(str_with_num[1])
 Итак, теперь нужно научить скрипт разпознавать формат в который требуется перевести. Можем заметить, что у всех картинок разная структура символов 
 из которых они сделаны. Поэтому можем взять последнюю строчку "картинки" с форматом и на основе ее давать ответ в какой формат нужно перевести.
 
+```py
+from pwn import * 
+
+p = remote('109.233.56.90', 11573)
+
+str_with_num = p.recvline().decode('utf-8').split(" ")
+print(str_with_num[1])
+print(p.recvline())
+print(p.recvline())
+print(p.recvline())
+print(p.recvline())
+last_str = p.recvline().decode("utf-8")
+
+if last_str == "|_| |_| \\___|/_/\\_\\\r\n":
+    print('HEX')
+
+elif last_str == " \\___/  \\___| \\__| \\__,_||_|\r\n":
+    print('OCTAL')
+
+elif last_str == "|____/ |_| \\__, | |_____||_| |_| \\__,_||_| \\__,_||_| |_| \\___/    |_|  \r\n":
+    print('BIG ENDIAN')
+
+elif last_str == "|_____||_| \\__| \\__||_| \\___| |_____||_| |_| \\__,_||_| \\__,_||_| |_| \\___/    |_|  \r\n":
+    print('LITTLE ENDIAN')
+```
+![image](https://github.com/user-attachments/assets/d0ca8633-903a-481b-8bd5-0fc33ecf0631) <br />
+![image](https://github.com/user-attachments/assets/b8e0b344-3da4-4678-a57a-3433c23ad094) <br />
+![image](https://github.com/user-attachments/assets/db92d064-47d2-4669-9a2e-950edc10c5b8) <br />
+![image](https://github.com/user-attachments/assets/83c2e7be-fb9c-4cdf-bcb6-9c191845693b)
+
+
+
+
+
+
+
 
 
