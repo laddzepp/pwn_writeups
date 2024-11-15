@@ -8,7 +8,9 @@
 совсем маленьких скрпитов. Тем не менее, задачу я решил и теперь могу поделиться своим решением. Приступим к решению. 
 Для начала посмотрим, что из себя представляет программа: <br />
 ![image](https://github.com/user-attachments/assets/e7a94b52-cecc-4e75-85a0-a7850c152935) <br />
-![image](https://github.com/user-attachments/assets/38e0ebb1-dbb3-413f-8585-ce54578a3cc5)
+![image](https://github.com/user-attachments/assets/38e0ebb1-dbb3-413f-8585-ce54578a3cc5) <br />
+
+Требуется перевести требуемое число в нужный формат (Hex, LittleEndian64, BigEndian64, Octal).
 
 
 
