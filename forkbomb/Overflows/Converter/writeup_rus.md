@@ -10,7 +10,11 @@
 ![image](https://github.com/user-attachments/assets/e7a94b52-cecc-4e75-85a0-a7850c152935) <br />
 ![image](https://github.com/user-attachments/assets/38e0ebb1-dbb3-413f-8585-ce54578a3cc5) <br />
 
-Требуется перевести требуемое число в нужный формат (Hex, LittleEndian64, BigEndian64, Octal).
+Требуется перевести требуемое число в нужный формат (`Hex`, `LittleEndian64`, `BigEndian64`, `Octal`). Возникает закономерный вопрос, а как это парсить ? 
+Разобьем данную задачу на две подзадачи: 
+  - Извлекаем число из перевого сообщения `Conevert num_is_here to`
+  - Парсим формат в который требуется перевести
+  - Отправляем на сервер ввод
 
 
 
