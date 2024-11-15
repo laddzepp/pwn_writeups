@@ -22,14 +22,22 @@
 from pwn import * 
 
 p = remote('109.233.56.90', 11573)
-#str_with_num = p.recvline().decode('utf-8').split(" ")
 print(p.recvline())
-
 ```
 ![image](https://github.com/user-attachments/assets/8f9f3e93-167d-4630-93bf-67f4276c3d55)
 
 Теперь попробуем извлечь число из данной строки. Данная функция присылает строку в байтах, поэтому,чтобы извлечь число нам потребуется предварительно 
 перевести байты в обычные символы, разбить полученную строку по пробелам и вывести число на экран.
+
+```py 
+from pwn import * 
+
+p = remote('109.233.56.90', 11573)
+str_with_num = p.recvline().decode('utf-8').split(" ")
+print(p.recvline())
+```
+![image](https://github.com/user-attachments/assets/15036042-26ff-4f69-b205-35532994ad3b)
+
 
 
 
